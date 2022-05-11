@@ -2,6 +2,7 @@
 
 body {
   background-color: #F2F3AE;
+  background-image: url("images/background-trees-1.jpg");
   color: #1A1423;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -62,6 +63,7 @@ a:hover {
   border: 1px solid rgb(136, 75, 75);
   padding: 20px;
   margin-top: 15px;
+  background-color: #F2F3AE;
 }
 
 .list-inline {
