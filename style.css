@@ -99,6 +99,10 @@ a {
   max-height: 120px;
 }
 
+.list-inline a:hover {
+  transition: 250ms;
+  color:#aa782d
+}
 /* .work-showcase a:hover {
   color:#bd8b40f5;
   transition: 0.2s;
