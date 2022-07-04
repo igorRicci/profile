@@ -86,3 +86,8 @@ a:hover {
   transition: 0.2s;
   transform: scale(1.1);
 }
+
+.work-showcase {
+  display: flex;
+  justify-content: space-around;
+}
