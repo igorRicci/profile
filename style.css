@@ -48,11 +48,6 @@ a {
   background-color: #5f3f10;
 }
 
-a:hover {
-  /* color: #bd8b40f5; */
-  /* transition: 0.2s; */
-}
-
 .text-center {
   text-align: center;
 }
@@ -116,7 +111,7 @@ a:hover {
 }
 
 .card-project {
-  background-color: #F2F3AE;
+  background-color: #f7ffdb;
   border-radius: 5px;
   padding: 5px 10px;
   width: 100%;
