@@ -49,8 +49,8 @@ a {
 }
 
 a:hover {
-  color: #bd8b40f5;
-  transition: 0.2s;
+  /* color: #bd8b40f5; */
+  /* transition: 0.2s; */
 }
 
 .text-center {
@@ -101,6 +101,7 @@ a:hover {
 .work-showcase a {
   width: 40%;
   margin: 10px 0;
+  max-height: 120px;
 }
 
 /* .work-showcase a:hover {
@@ -111,6 +112,7 @@ a:hover {
 .descr {
   font-weight: normal;
   font-size: 1rem;
+  line-height: 1.4rem;
 }
 
 .card-project {
@@ -119,7 +121,10 @@ a:hover {
   padding: 5px 10px;
   width: 100%;
   height: 100%;
-  transition: 0.2s;
+  transition: 250ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .card-project h3 {
@@ -127,7 +132,7 @@ a:hover {
 }
 
 .card-project:hover {
-  transition: 0.2s;
+  transition: 150ms;
   transform: scale(1.05);
-  color:#bd8b40f5;
+  /* color:#bd8b40f5; */
 }
