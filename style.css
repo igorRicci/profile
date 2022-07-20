@@ -113,14 +113,12 @@ a {
   display: flex;
   justify-content: space-around;
   margin-bottom: 10px;
-  width: 80%;
+  width: 100%;
 }
 
-/* .work-showcase a {
-  width: 40%;
-  margin: 10px 0;
-  max-height: 120px;
-} */
+.work-showcase a {
+  width: 100%;
+}
 
 .list-inline a:hover {
   transition: 250ms;
@@ -155,6 +153,6 @@ a {
 
 .card-project:hover {
   transition: 150ms;
-  transform: scale(1.05);
+  transform: scale(1.01);
   /* color:#bd8b40f5; */
 }
