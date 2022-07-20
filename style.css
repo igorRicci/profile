@@ -76,6 +76,7 @@ a {
 
 .card > h2 {
   font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .card {
@@ -149,6 +150,8 @@ a {
 
 .card-project h3 {
   margin: 5px;
+  margin-bottom: 0;
+  font-size: 1.4rem;
 }
 
 .card-project:hover {
