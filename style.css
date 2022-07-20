@@ -33,6 +33,7 @@ h1 {
 
 p {
   margin: 1rem;
+  font-size: 1.1rem;
 }
 
 img {
@@ -55,8 +56,8 @@ a {
   line-height: 50px;
 }
 
-.landing > p > span {
-  font-size: 1.6rem;
+.profission {
+  font-size: 2rem;
 }
 
 .btn-link:hover {
@@ -114,11 +115,11 @@ a {
   margin-bottom: 10px;
 }
 
-.work-showcase a {
+/* .work-showcase a {
   width: 40%;
   margin: 10px 0;
   max-height: 120px;
-}
+} */
 
 .list-inline a:hover {
   transition: 250ms;
