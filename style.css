@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   background-color: #F2F3AE;
@@ -13,16 +17,21 @@ body {
 
 h1, h2 {
   font-family: 'Raleway', sans-serif;
-
+  margin: 0.5rem;
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 2rem;
+  margin: 0.5rem;
 }
 
-h2 {
-  font-size: 20px;
+.landing > h2 {
+  font-size: 1.6rem;
   margin-top: 0;
+}
+
+p {
+  margin: 1rem;
 }
 
 img {
@@ -45,6 +54,10 @@ a {
   line-height: 50px;
 }
 
+.landing > p > span {
+  font-size: 1.6rem;
+}
+
 .btn-link:hover {
   color: #F2F3AE;
   background-color: #5f3f10;
@@ -57,6 +70,10 @@ a {
 .container {
   width: 550px;
   margin: 0 auto;
+}
+
+.card > h2 {
+  font-size: 2rem;
 }
 
 .card {
